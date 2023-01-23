@@ -6,4 +6,4 @@ EXPOSE 8080
 
 COPY . .
 
-CMD [ "python", "./your-daemon-or-script.py" ]
+CMD [ "python", "bash" ]
