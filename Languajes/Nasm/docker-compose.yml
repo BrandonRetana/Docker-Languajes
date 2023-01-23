@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  nasm:
+    container_name: nasm_env
+    build: .
+
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./code:/home/code 
