@@ -1,7 +1,7 @@
 version: '3.3'
 services:
-  python:
-    container_name: c++_env
+  gcc:
+    container_name: gcc_env
     build: .
 
     ports:
